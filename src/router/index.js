@@ -1,5 +1,6 @@
 import {createRouter, createWebHistory} from 'vue-router'
 import Home from "../components/Home.vue"
+import Pomofoco from "../components/Pomofoco.vue"
 
 const routes = [
     // {
@@ -11,6 +12,11 @@ const routes = [
         path : "/Home",
         name : "/Home",
         component : Home
+    },
+    {
+        path : "/pomo-foco",
+        name : "/Pomofoco",
+        component : Pomofoco
     }
 ]
 
